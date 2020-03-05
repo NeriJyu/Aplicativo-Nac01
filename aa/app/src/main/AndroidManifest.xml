@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.pirombolas">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity android:name=".Americanas" android:parentActivityName=".MainActivity">
+        </activity>
+        <activity android:name=".Netshoes" android:parentActivityName=".MainActivity">
+        </activity>
+        <activity
+                android:name=".Magalu"
+                android:parentActivityName=".MainActivity"
+               >
+        </activity>
+        <activity android:name=".Ebay" android:parentActivityName=".MainActivity">
+        </activity>
+        <activity
+                android:name=".Buscape"
+                android:parentActivityName=".MainActivity">
+        </activity>
+        <activity
+                android:name=".Sobre"
+                android:label="@string/title_activity_sobre"
+                android:parentActivityName=".MainActivity">
+        </activity>
+        <activity
+                android:name=".Submarino"
+                android:parentActivityName=".MainActivity">
+        </activity>
+        <activity
+                android:name=".WebMotors"
+                android:parentActivityName=".MainActivity">
+        </activity>
+        <activity
+                android:name=".Paginas"
+                android:parentActivityName=".MainActivity">
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
